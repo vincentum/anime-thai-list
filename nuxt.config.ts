@@ -20,7 +20,7 @@ export default defineNuxtConfig({
         },
       ],
     },
-    baseURL: 'anime-thai-list'
+    baseURL: '/anime-thai-list'
   },
 
   ssr: false,
