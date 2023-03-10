@@ -22,11 +22,12 @@
 
 <script setup lang="ts">
 import animesjson from "~/resources/anime.json";
+import { Anime } from "~~/types/anime";
 
-const animes = ref(animesjson);
+const animes = ref<{ [id: string]: Anime }>(animesjson);
 
-const handleSelectAnime = (id: string) => {
-  useRouter().push(id);
+const handleSelectAnime = (id: string | number) => {
+  useRouter().push(`${id}`);
 };
 </script>
 

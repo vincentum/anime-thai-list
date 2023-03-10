@@ -11,7 +11,16 @@
           {
             "name": "NETFLIX",
             "valid": true,
-            "link": ""
+            "link": "",
+            "dub": ["Thai", "Japanese"],
+            "sub": ["Thai", "Japanese"]
+          },
+          {
+            "name": "TrueID",
+            "valid": true,
+            "link": "",
+            "dub": ["Thai", "Japanese"],
+            "sub": ["Thai", "Japanese"]
           }
         ]
       }
